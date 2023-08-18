@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Urbanist";
+    src: url('./fonts/Urbanist-VariableFont_wght.ttf');
+}
+
+.standard_font {
+    font-family: "Urbanist", sans-serif;
+    color: white;
+}
+
+/* Centering elements */
+.centered {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: end;
+}
+
+.centered_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* Buffer between elements */
+.top_buffer {
+    margin-top: 20px;
+}
+
+/* Setting background */
+#bg {
+    background-image: linear-gradient(blue, darkmagenta);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,36 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/index.css"/>
+    <title>MNIST Number Classifier</title>
+</head>
+<body id="bg">
+    <h1 class="standard_font" style="text-align:center">Welcome to the MNIST number classifier!</h1>
+    <p class="standard_font" style="text-align:center">Upload an image below:</p>
+    <div class="container">
+        <div class="row">
+            <form method="POST" action="/" enctype="multipart/form-data">
+                <input id="inp" type="file" title=" " name="file" class="centered" autocomplete="off" required>
+                <input type="submit" value="Submit" class="centered">
+            </form>
+        </div>
+        <div class="row top_buffer">
+            {% if filename %}
+                <object type="image/*">
+                    <img src="{{ url_for('image_display', filename=filename) }}" class="centered_image">
+                </object>
+            {% else %}
+                <object type="image/*">
+                    <img src="static/images/gray_square.png" class="centered_image">
+                </object>
+            {% endif %}
+        </div>
+        <div class="row top_buffer">
+            {% if filename %}
+            <h3 class="standard_font" style="text-align:center">Prediction: {{prediction}}</h3>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
