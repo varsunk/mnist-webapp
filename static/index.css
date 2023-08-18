@@ -30,7 +30,7 @@
 
 /* Setting background */
 #bg {
-    background-image: linear-gradient(blue, darkmagenta);
+    background-image: linear-gradient(rgb(94, 91, 91), black);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
