@@ -6,7 +6,7 @@ This project consists of a simple Flask webapp that allows users to upload 28x28
 
 This website runs locally and does not require an internet connection. You can run it on your own computer so long as you have all of the proper Python libraries (specified in requirements.txt) downloaded as well as their dependencies.
 
-In order to run the app, simply navigate to the project root and run the following command:
+In order to run the app, simply navigate to the project root and run the following command in the terminal (this should work on Linux/Mac/Windows):
 
 `python app.py`
 
