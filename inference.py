@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-MODEL_PATH = 'mnist_model.pt'
+MODEL_PATH = 'model/mnist_model.pt'
 
 # define model here (so importing nn.ipynb is not necessary)
 class CNN(nn.Module):

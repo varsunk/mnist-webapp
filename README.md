@@ -2,6 +2,14 @@
 
 This project consists of a simple Flask webapp that allows users to upload 28x28 images containing a single digit (0-9) and then returns a prediction for what digit the image contains. 
 
+## Instructions
+
+This website runs locally and does not require an internet connection. You can run it on your own computer so long as you have all of the proper Python libraries (specified in requirements.txt) downloaded as well as their dependencies.
+
+In order to run the app, simply navigate to the project root and run the following command:
+
+`python app.py`
+
 This is what the website looks when you first open it. Click "Choose File" in order to choose an image to test, and click "Submit" in order to receive a prediction.
 
 ![Screenshot of the website when first opened.](readme_1.png)
