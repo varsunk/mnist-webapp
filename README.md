@@ -14,11 +14,11 @@ This is what the website looks when you first open it. Click "Choose File" in or
 
 ![Screenshot of the website when first opened.](readme_1.png)
 
-As an example, let's test the following 28x28 image:
+As an example, let's test the following 28x28 PNG:
 
 ![28 by 28 png of the number "4"](readme_2.png)
 
-It is important to use an image with a black number and white background, otherwise you will have to change the preprocessing steps such that the image colors are not reversed, since the MNIST dataset uses white numbers on a black background.
+It is important to use an PNG with a black number and white background, otherwise you will have to change the preprocessing steps such that the image colors are not reversed, since the MNIST dataset uses white numbers on a black background.
 
 Here is the prediction from the website:
 
